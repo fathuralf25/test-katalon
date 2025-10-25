@@ -1,18 +1,15 @@
-.gradle
+/Reports/
+/settings/internal/
+/bin/
+/Libs/
+/Test Reports/
 
-bin
+*.log
+*.tmp
+*.bak
+*.class
 
-Reports
-
-Libs
-
-output
-
-!output/.gitkeep
-build
-
-.classpath
-
-.project
-
-.cache
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
