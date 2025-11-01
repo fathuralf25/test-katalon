@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>test case test</name>
+   <name>test d</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>dc692084-8932-4526-83d6-2e45ceedd2ec</testCaseGuid>
+   <testCaseGuid>45ebe0f0-d115-4285-9588-779653ebf8d7</testCaseGuid>
 </TestCaseEntity>
