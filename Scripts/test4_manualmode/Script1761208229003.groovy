@@ -21,7 +21,7 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
 
-WebUI.click(findTestObject('page cura manual mode/Page_CURA Healthcare Service/a_We Care About Your Health_btn-make-appointment'))
+WebUI.click(findTestObject('page cura manual mode/Page_CURA Healthcare Service/btn-make-appointment'))
 
 WebUI.setText(findTestObject('page cura manual mode/Page_CURA Healthcare Service/input_Username_txt-username'), 'John Doe')
 
