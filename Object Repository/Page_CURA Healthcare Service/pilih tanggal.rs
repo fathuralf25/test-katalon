@@ -1,26 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Password_txt-password</name>
+   <name>pilih tanggal</name>
    <tag></tag>
-   <elementGuidId>763cbe3a-fa62-4177-aa71-ae2125b227d7</elementGuidId>
+   <elementGuidId>25d869fc-6472-4123-92ad-a028075d3a43</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#txt-password</value>
+         <value>#txt_visit_date</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='txt-password']</value>
+         <value>//input[@id='txt_visit_date']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
-   <smartLocatorCollection>
-      <entry>
-         <key>SMART_LOCATOR</key>
-         <value>internal:label=&quot;Password&quot;i</value>
-      </entry>
-   </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
@@ -29,15 +23,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>67db4361-64bb-419b-85e4-bc71a9bf8c12</webElementGuid>
+      <webElementGuid>2722cb54-5a59-487c-9b65-8332818bb6ba</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>password</value>
-      <webElementGuid>503914cd-92e6-4cb2-a501-7e1ba5aa8206</webElementGuid>
+      <value>text</value>
+      <webElementGuid>9cd10bf6-ac85-4a1d-81da-94c94c8b7eff</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,31 +39,31 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control</value>
-      <webElementGuid>fb592436-ba33-4c26-b325-af998d42a4bb</webElementGuid>
+      <webElementGuid>ea0d6c7f-8e24-48db-ba6a-04c726b35470</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>txt-password</value>
-      <webElementGuid>a5190212-9fb8-4c4a-8636-75e4ffdbf92f</webElementGuid>
+      <value>txt_visit_date</value>
+      <webElementGuid>7393224d-42fc-45d2-b4d5-1ae861c7a569</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>password</value>
-      <webElementGuid>413492a7-2310-4636-afb3-edc32af3e189</webElementGuid>
+      <value>visit_date</value>
+      <webElementGuid>851b17a9-c305-4c28-8728-ae9fb2b25202</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
-      <value>Password</value>
-      <webElementGuid>8d74ec82-5462-4e93-a716-394411eac513</webElementGuid>
+      <value>dd/mm/yyyy</value>
+      <webElementGuid>bf1f7953-69d4-40c6-a1fd-dc7cad16a874</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,46 +71,46 @@
       <name>autocomplete</name>
       <type>Main</type>
       <value>off</value>
-      <webElementGuid>831a6854-1959-4869-8888-2dbddb1a1105</webElementGuid>
+      <webElementGuid>a2d387bc-8591-4169-aa70-e7454b67cb8c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;txt-password&quot;)</value>
-      <webElementGuid>c35186c5-e30f-4fb8-b740-73fc8fb29210</webElementGuid>
+      <value>id(&quot;txt_visit_date&quot;)</value>
+      <webElementGuid>8492666b-3aa5-4725-8167-7071fa507245</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='txt-password']</value>
-      <webElementGuid>1894d3a3-cc9b-465f-8279-4f4fda4af8ca</webElementGuid>
+      <value>//input[@id='txt_visit_date']</value>
+      <webElementGuid>cc42ae3c-7b75-4622-af95-cd5c44989f07</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//section[@id='login']/div/div/div[2]/form/div[3]/div/input</value>
-      <webElementGuid>dde5650e-7e9a-452c-838a-a7e3d931b409</webElementGuid>
+      <value>//section[@id='appointment']/div/div/form/div[4]/div/div/input</value>
+      <webElementGuid>d9796d29-6a1e-4996-ac84-74ebeb8e958f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[3]/div/input</value>
-      <webElementGuid>f9396afb-7e1d-43b6-aa53-c79c748632d2</webElementGuid>
+      <value>//div/input</value>
+      <webElementGuid>e975b184-3cd2-4635-af38-1c4a35346fe8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@type = 'password' and @id = 'txt-password' and @name = 'password' and @placeholder = 'Password']</value>
-      <webElementGuid>8fd5b9be-01fc-438c-a398-081268b97a3c</webElementGuid>
+      <value>//input[@type = 'text' and @id = 'txt_visit_date' and @name = 'visit_date' and @placeholder = 'dd/mm/yyyy']</value>
+      <webElementGuid>3d624c32-f7bd-4726-ab68-f4e8a270727a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
