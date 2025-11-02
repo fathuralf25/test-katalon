@@ -21,33 +21,28 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
 
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/a_We Care About Your Health_btn-make-appointment (1)'))
+WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/a_We Care About Your Health_btn-make-appointment'))
 
-WebUI.setText(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Username_txt-username (1)'), 'John Doe')
+WebUI.setText(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Username_txt-username'), 'John Doe')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Password_txt-password (1)'), 
-    'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM')
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Password_txt-password'), 'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM')
 
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/button_Password_btn-login (1)'))
+WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/button_Password_btn-login'))
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_CURA Healthcare Service/select_Facility_combo_facility (1)'), 
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_CURA Healthcare Service/select_Facility_combo_facility'), 
     'Seoul CURA Healthcare Center', true)
 
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Apply for hospital readmission_chk_ho_9218d5 (1)'))
+WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Apply for hospital readmission_chk_ho_9218d5'))
 
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Medicaid_radio_program_medicaid (1)'))
+WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Medicaid_radio_program_medicaid'))
 
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Visit Date (Required)_txt_visit_date (1)'))
+WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/span_Visit Date (Required)_glyphicon glyphi_cada34'))
 
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/th_October 2025_next (1)'))
+WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/td_Sa_day'))
 
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/td_Sa_day (2)'))
+WebUI.setText(findTestObject('Object Repository/Page_CURA Healthcare Service/textarea_Comment_txt_comment'), 'hospital')
 
-WebUI.setText(findTestObject('Object Repository/Page_CURA Healthcare Service/textarea_Comment_txt_comment (1)'), 'test')
-
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/button_Comment_btn-book-appointment (1)'))
-
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/a_Comment_btn btn-default (1)'))
+WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/button_Comment_btn-book-appointment'))
 
 WebUI.closeBrowser()
 
